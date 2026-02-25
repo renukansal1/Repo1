@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs: 
   build:
-    runs-on: Azure-yashpool
+    runs-on: windows-latest
     steps:
      - uses: actions/checkout@v4
      - name: Run a one-line script
